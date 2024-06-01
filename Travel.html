@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google fonts cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+<!-- CSS -->
+<link rel="stylesheet" href="./Travel.css">
+    <title>Travel Website</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg   p-1 bg-danger">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images/pngtree-vacation-and-travel-icon-png-image_4032146-removebg-preview.png" alt="logo" id="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-center " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item  ">
+               
+                <a class="nav-link active text-light " aria-current="page" href="#">DESTINATIONS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active mx-auto text-light" aria-current="page" href="#">EXPERIENCES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active mx-auto text-light" aria-current="page" href="#">ABOUT</a>
+              </li>
+            </ul>
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <li class="nav-item me-3 ">
+                    <i class="fa-solid fa-magnifying-glass fa-2x text-light "></i>
+                  </li> 
+                </li>
+                <li class="nav-item">
+                  <button class="btn rounded-2 px-3 mt-md-0 py-2 me-3 fa-1x " id="contbtn" >Start Planning</button>
+                </li> 
+               </li>
+                <li class="nav-item ">
+                  <i class="fa-solid fa-user fa-2x text-light me-3"></i>
+              </li> 
+              </ul>
+            </div>
+          </div>
+        </nav>  
+
+        
+      <div class="main">
+       
+        <video autoplay muted loop id="video-background" style="width: 100%; height: auto; position: relative; z-index: 1;">
+          <source src="./images/4120588-uhd_2560_1440_30fps.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+        <div class="welcome text-center justify-content-center align-items-center">
+          <h1 class="text-light" style="margin-bottom: 20px;">PUT THE WORLD</h1>
+          <h1 class="text-light" style="margin-bottom: 80px;">IN YOUR HANDS</h1>
+          
+            <button class="btn rounded-1 py-3 px-4 mt-3  ">INSPIRE ME</button>
+        </div>
+      </div>
+
+      <div class="details ">
+        <div class="row mt-5">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <p class="mt-4 ms-md-5 ms-3 fs-md-3 fs-4">Where to?</p>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <div class="card">
+                            <div class="card-body d-flex align-items-center">
+                                <i class="fa-solid fa-location-dot fa-2x"></i>
+                                <p class="card-text ms-3">Going to</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-6 mb-3">
+                        <div class="card">
+                            <div class="card-body d-flex align-items-center">
+                                <i class="fa-regular fa-calendar-days fa-2x"></i>
+                                <p class="card-text ms-3">7 Apr - 10 Apr</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-6 mb-3">
+                        <div class="card">
+                            <div class="card-body d-flex align-items-center">
+                                <i class="fa-solid fa-user fa-2x"></i>
+                                <p class="card-text ms-3">2 Travellers, 1 room</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-6 d-flex justify-content-center align-items-center">
+                        <a href="#" class="btn btn-primary rounded-4 ms-md-4 ms-0" style="width: 8rem;">Search</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+    
+
+    <div class="row mt-5">
+      <div class="col-md-2"></div> 
+      <div class="col-md-8">
+          <p class="mt-4 ms-5 fs-3">Your recent search</p>
+          
+          <div class="row mt-4 ms-3 "> 
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card" style="width: 17rem; height: 10rem;">
+                    <div class="card-body d-flex align-items-center">
+                        <i class="fa-solid fa-location-dot fa-2x me-3"></i>
+                        <div class="card-body2">
+                            <p class="card-text">Stays in India</p>
+                            <p class="card-text">17 Apr - 22 Apr</p>
+                            <p class="card-text">2 Travellers, 1 room</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+      <div class="col-md-2"></div>
+  </div>
+  
+  
+      
+  <div class="row mt-5">
+    <div class="col-md-2"></div>
+    <div class="col-md-8 bg-danger p-3 ms-2  align-items-center justify-content-center" style="height: 17rem;">
+        <p class="text-dark fs-3">Find and book your Perfect Stay</p>
+        <!-- Carousel for mobile screens -->
+        <div id="carouselExampleControls" class="carousel slide d-md-none" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card bg-primary " style="width: 19rem; height: 10rem;">
+                        <div class="card-body d-flex align-items-center">
+                            <i class="fa-solid fa-moon fa-2x me-3 text-light"></i>
+                            <p class="card-text text-light">Earn rewards on every night you stay</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card bg-primary" style="width: 19rem; height: 10rem;">
+                        <div class="card-body d-flex align-items-center">
+                            <i class="fa-solid fa-tag fa-2x me-2 text-light"></i>
+                            <p class="card-text text-light">Save more with Member Prices</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card bg-primary" style="width: 19rem; height: 10rem;">
+                        <div class="card-body d-flex align-items-center p-5">
+                            <i class="fa-regular fa-calendar-days fa-2x me-1 text-light"></i>
+                            <p class="card-text text-light">Free cancellation options if plans change</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Static cards for non-mobile screens -->
+        <div class="row d-none d-md-flex justify-content-center">
+            <div class="col-md-3">
+                <div class="card bg-primary" style="width: 14rem;">
+                    <div class="card-body d-flex align-items-center">
+                        <i class="fa-solid fa-moon fa-2x me-3 text-light"></i>
+                        <p class="card-text text-light">Earn rewards on every night you stay</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card bg-primary" style="width: 14rem;">
+                    <div class="card-body d-flex align-items-center">
+                        <i class="fa-solid fa-tag fa-2x me-2 text-light"></i>
+                        <p class="card-text text-light">Save more with Member Prices</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card bg-primary" style="width: 14rem;">
+                    <div class="card-body d-flex align-items-center">
+                        <i class="fa-regular fa-calendar-days fa-2x me-3 text-light"></i>
+                        <p class="card-text text-light">Free cancellation options if plans change</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+
+
+    
+    <div class="row mt-5 row2">
+      <div class="col-md-2"></div>
+      
+      <div class="col-md-8">
+        <p class="text-dark fs-3">Discover your new favourite stay</p>
+        <div class="row justify-content-center icons-container">
+        <div class="col-6 col-md-2"><i class="fa-solid fa-house-chimney fa-2x text-primary border border-2 border-primary p-3 rounded-circle"></i><p class="text-center">Villa</p></div>
+       
+        <div class="col-6 col-md-2"><i class="fa-solid fa-ship fa-2x text-primary border border-2 border-primary p-3 rounded-circle"></i><p class="text-center">Houseboat</p></div>
+        <div class="col-6 col-md-2"><i class="fa-solid fa-person-swimming fa-2x text-primary border border-2 border-primary p-3 rounded-circle"></i><p class="text-center">Pool</p></div>
+        <div class="col-6 col-md-2"><i class="fa-solid fa-infinity fa-2x text-primary border border-2 border-primary p-3 rounded-circle"></i><p class="text-center">24/7 </p></div>
+        <div class="col-6 col-md-2"><i class="fa-solid fa-people-roof fa-2x text-primary border border-2 border-primary p-3 rounded-circle"></i><p class="text-center">Cottage</p></div>
+        <div class="col-6 col-md-2"><i class="fa-solid fa-spa fa-2x text-primary border border-2 border-primary p-3 rounded-circle"></i><p class="text-center">Spa</p></div>
+        <div class="col-6 col-md-2"><i class="fa-solid fa-paw fa-2x text-primary border border-2 border-primary p-3 rounded-circle"></i><p class="text-center">Pet</p></div>
+        <div class="col-6 col-md-2"><i class="fa-solid fa-building fa-2x text-primary border border-2 border-primary p-3 rounded-circle"></i><p>Apartment</p></div>
+    </div>
+  </div>
+
+  
+    
+      <div class="col-md-2"></div>
+    </div>      
+          
+    <div class="row mt-5">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <p class="mt-4 fs-3">Explore stays in trending destinations</p>
+      
+      <div class="row cards-container ms-1">
+        <div class="col-md-3 "><div class="card  " style="width: 19rem;">
+          <img src="https://www.portseattle.org/sites/default/files/inline-images/Airport_190725_112.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Koh Samui</h5>
+            <h6>Thailand</h6>
+          
+          </div>
+        </div></div>
+        <div class="col-md-3"><div class="card ms-2" style="width: 19rem;">
+          <img src="https://asia-south1-nature-beyond.cloudfunctions.net/NextImageOptimizer?url=https://storage.googleapis.com/nature-beyond.appspot.com/Gangtok,%20Ropeway_390A1841_1678122359722.jpg&width=3840&quality=75" class="card-img-top"  alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Istanbul</h5>
+            <h6>Turkiye</h6>
+           
+          </div>
+        </div></div>
+        <div class="col-md-3"><div class="card ms-2" style="width: 19rem;">
+          <img src="https://etimg.etb2bimg.com/photo/97054359.cms" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Interlaken</h5>
+            <h6>Switzerland</h6>
+           
+          </div>
+        </div></div>
+        <div class="col-md-3"><div class="card ms-2" style="width: 19rem;">
+          <img src="https://media.worldnomads.com/social-share-images/india/see-and-do-kerala-social.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Kerala</h5>
+            <h6>India</h6>
+          
+          </div>
+        </div></div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    
+  </div>    
+  
+  <div class="row mt-5 p-5 row1" style="background-color: rgb(239, 11, 11);">
+    <div class="col-md-1"></div>
+    <div class="col-md-1">
+      <h3 class="fa-1x">Top destinations</h3>
+      <a href="" style="color: white;"><h6 class="mt-4">Hotels in Dubai</h6></a>
+      <a href="" style="color: white;"><h6 class="mt-4">Hotels in Paris</h6></a>
+      <a href="" style="color: white;"><h6 class="mt-4">Hotels in London</h6></a>
+      <a href="" style="color: white;"><h6 class="mt-4">Hotels in Japan</h6></a>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-1">
+      <h3 class="fa-1x">Top countries & regions</h3>
+      <a href="" style="color: white;"><h6 class="mt-4">Hotels in Maldives</h6></a>
+      <a href="" style="color: white;"><h6 class="mt-4">Hotels in Singapore</h6></a>
+      <a href="" style="color: white;"><h6 class="mt-4">Hotels in India</h6></a>
+      <a href="" style="color: white;"><h6 class="mt-4">Hotels in SriLanka</h6></a>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-1">
+      <h4 class="fa-1x">Support & FAQs</h4>
+      <a href="" style="color: white;"><h6 class="mt-4">Your bookings</h6></a>
+      <a href="" style="color: white;"><h6 class="mt-4">FAQs</h6></a>
+      <a href="" style="color: white;"><h6 class="mt-4">Review a property</h6></a>
+      <a href="" style="color: white;"><h6 class="mt-4">Contact us</h6></a>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-1">
+      <h3 class="fa-1x">Policies</h3>
+      <a href="" style="color: white;"><h6 class="mt-4">Terms and conditions</h6></a>
+      <a href="" style="color: white;"><h6 class="mt-4">Privacy</h6></a>
+      <a href="" style="color: white;"><h6 class="mt-4">Cookies</h6></a>
+      <a href="" style="color: white;"><h6 class="mt-4">Guidelines</h6></a>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-1">
+      <h3 class="fa-1x">Other information</h3>
+      <a href="" style="color: white;"><h6 class="mt-4">Travel Guides</h6></a>
+      <a href="" style="color: white;"><h6 class="mt-4">About us</h6></a>
+      <a href="" style="color: white;"><h6 class="mt-4">Careers</h6></a>
+     
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-1"></div>
+  </div>
+        
+    </div>
+  
+  <!------------------------------------------------------------------->
+ 
+     
+
+        
+
+    
+  </body>
+  </html>
+             
+            
+            
+ 
